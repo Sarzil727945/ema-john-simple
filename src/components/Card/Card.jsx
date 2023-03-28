@@ -13,7 +13,8 @@ const Card = (props) => {
           totalShipping = totalShipping + product.shipping;
      }
      const tax = total*5/100;
-     
+     const grandTotal = total + totalShipping + tax;
+
      return (
           <div className='card'>
                <h2>Order Summary</h2>
@@ -21,8 +22,8 @@ const Card = (props) => {
                     <p>Selected Items: {cart.length}</p>
                     <p>Total Price: ${total}</p>
                     <p>Total Shipping Charge: ${totalShipping}</p>
-                    <p>Tax: ${tax}</p>
-                    <h3>Grand Total: $</h3>
+                    <p>Tax: ${tax.toFixed(2)}</p>
+                    <h3>Grand Total: ${grandTotal.toFixed(2)}</h3>
                </div>
                <div>
                     <button className='clear-btn'>Clear Cart  <FontAwesomeIcon icon={faTrash} /></button>
