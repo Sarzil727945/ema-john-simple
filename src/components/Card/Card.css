@@ -1,0 +1,22 @@
+.card{
+     background: #FFE0B3;
+     position: sticky;
+     top: 0;
+}
+.card h2{
+     text-align: center;
+}
+.clear-btn{
+     background-color: #FF3030;
+     color: #FFFFFF;
+     border-radius: 4px;
+     width: 100%;
+     margin-top: 30px;
+}
+.review-btn{
+     background: #FF9900;
+     color: #FFFFFF;
+     border-radius: 4px;
+     width: 100%;
+     margin-top: 10px;
+}

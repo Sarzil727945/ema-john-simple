@@ -8,9 +8,3 @@
      grid-template-columns: repeat(3, 1fr);
      gap: 45px;
 }
-.subShop-div1-2{
-     background: #FFE0B3;
-}
-.subShop-div1-2 h2{
-     text-align: center;
-}
